@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="ta">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#06110d">
+<title>Bujjikutty 💚</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+<style>*{box-sizing:border-box}
+:root{--bg:#06110d;--panel:#0b1b14;--green:#8fe3ae;--green2:#b9f5ca;--white:#f3f7f4;--muted:#a6b3aa}
+html,body{margin:0;width:100%;min-height:100%;background:var(--bg);color:var(--white);font-family:"DM Sans",sans-serif}
+body{overflow:hidden}.grain{position:fixed;inset:0;z-index:50;pointer-events:none;opacity:.035;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence baseFrequency='.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E")}
+#loader{position:fixed;inset:0;z-index:100;background:#06110d;display:flex;align-items:center;justify-content:center;flex-direction:column;transition:.7s}.loader-icon{font-size:44px;animation:pulse 1s infinite}.loader-icon+p{font-size:10px;letter-spacing:2px;text-transform:uppercase;opacity:.45}#loader.hide{opacity:0;visibility:hidden}
+.screen{display:none;position:relative;width:100%;height:100svh;min-height:100svh;overflow-y:auto;padding:34px 16px 40px;align-items:center;justify-content:center;text-align:center}.screen.active{display:flex;animation:enter .75s cubic-bezier(.2,.8,.2,1)}
+.hero{overflow:hidden;background:radial-gradient(circle at 50% 35%,#1b4b32,#0a1b13 42%,#06110d 78%)}.orb{position:absolute;border-radius:50%;filter:blur(42px);opacity:.22}.orb-a{width:300px;height:300px;background:#4fdb86;left:-120px;top:8%;animation:orb 8s infinite alternate}.orb-b{width:260px;height:260px;background:#a5efbf;right:-120px;bottom:5%;animation:orb 10s infinite alternate-reverse}.hero-inner{position:relative;z-index:2}.eyebrow{font-size:10px;letter-spacing:2.7px;text-transform:uppercase;opacity:.62}.hero-heart,.final-heart{font-size:43px;margin:24px auto 4px;animation:pulse 1.4s infinite}.hero h1,.final h1{font-family:"Playfair Display",serif;font-size:clamp(58px,17vw,86px);line-height:.92;margin:18px 0}.hero h1 em,.final h1 em,h2 em{font-style:normal;color:var(--green)}.hero-copy{font-size:18px;line-height:1.8;color:#cad6ce}.primary,.ghost,.song{display:inline-flex;align-items:center;gap:10px;border-radius:999px;padding:15px 23px;font:700 15px "DM Sans";cursor:pointer;transition:.25s}.primary{border:0;background:linear-gradient(135deg,#b7f5ca,#82dca1);color:#06110d;box-shadow:0 12px 35px #62df922c}.primary:hover{transform:translateY(-3px) scale(1.02)}.ghost{border:1px solid #a5edbd55;background:#ffffff04;color:var(--green);margin-top:20px}.glass,.prayer-wrap,.letter{width:min(700px,100%);padding:31px 20px;border:1px solid #b5e9c522;border-radius:28px;background:#0b1b14e8;box-shadow:0 30px 90px #0009;backdrop-filter:blur(12px)}.intro{background:radial-gradient(circle at 50% 30%,#153e29,#06110d 68%)}.big03{font:76px/1 "Playfair Display";color:#8fe3ae1c;margin:16px 0 -7px}.glass h2,h2{font:43px/1.05 "Playfair Display";margin:15px 0 22px}.glass p:not(.eyebrow),.prayer-wrap p{font-size:17px;line-height:1.85;color:#d4ded8}.divider{margin:24px auto;color:var(--green);letter-spacing:10px}.memories{display:flex;flex-direction:column;justify-content:flex-start;background:linear-gradient(#06110d,#091710);padding-top:38px}.section-heading{width:min(700px,100%)}.section-heading h2{margin-bottom:10px}.photo-stack{width:min(700px,100%);display:grid;grid-template-columns:1fr 1fr;gap:14px;margin:8px 0}.photo-stack figure{position:relative;margin:0;border-radius:20px;overflow:hidden;background:#0d1c15;border:1px solid #ffffff12;box-shadow:0 18px 45px #0008;animation:float 6s ease-in-out infinite}.photo-stack figure:nth-child(2){animation-delay:-1s}.photo-stack figure:nth-child(3){animation-delay:-2s}.photo-stack figure:nth-child(4){animation-delay:-3s}.photo-stack figure:nth-child(5){animation-delay:-4s}.photo-stack figure.wide{grid-column:1/-1}.photo-stack img{display:block;width:100%;height:auto;aspect-ratio:4/3;object-fit:cover;transition:transform .7s}.photo-stack .wide img{aspect-ratio:16/9}.photo-stack figure:hover img{transform:scale(1.05)}.photo-stack figure>span{position:absolute;right:8px;top:8px;z-index:2;border:1px solid #ffffff22;border-radius:99px;background:#06110dcc;padding:5px 8px;font-size:9px}.photo-stack figcaption{font-size:10px;letter-spacing:1.6px;text-transform:uppercase;padding:10px;opacity:.5}.letter-screen{align-items:flex-start;background:radial-gradient(circle at 50% 15%,#173f2b,#06110d 62%)}.letter{text-align:left}.letter p{font-size:17px;line-height:1.9;color:#d8e2db}.letter .strong{font-weight:700;color:#f0f7f2}.quote{font:21px/1.6 "Playfair Display";color:var(--green2);border-left:2px solid var(--green);padding:4px 0 4px 17px;margin:28px 0}.wish{text-align:center;font-weight:700}.doctor{background:radial-gradient(circle at 50% 32%,#123a28,#06110d 68%)}.scene,.creator-scene{width:min(700px,100%)}.doctor-stage{height:310px;position:relative;margin:4px auto 10px}.pulse-ring{position:absolute;width:210px;height:210px;border:1px solid #8fe3ae44;border-radius:50%;left:50%;top:50%;transform:translate(-50%,-50%);animation:ring 2.2s infinite}.pulse-ring:after{content:"";position:absolute;inset:18px;border:1px dashed #8fe3ae30;border-radius:50%;animation:spin 10s linear infinite}.cross{position:absolute;left:50%;top:46%;transform:translate(-50%,-50%);font-size:62px;color:#a9efc0;filter:drop-shadow(0 0 20px #8fe3ae44);animation:pulse 1.7s infinite}.stethoscope{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%) rotate(12deg);font-size:120px;color:#d9eee0aa;opacity:.18}.ecg{position:absolute;left:10%;right:10%;top:66%;height:45px;overflow:hidden}.ecg:before{content:"";position:absolute;left:0;right:0;top:22px;height:1px;background:#8fe3ae33}.ecg span{position:absolute;left:-40%;width:40%;height:45px;border-top:2px solid #8fe3ae;border-right:2px solid transparent;animation:ecg 2.3s linear infinite;transform:skewX(-20deg)}.rx-card{position:absolute;right:2%;top:15%;width:175px;text-align:left;background:#f0f6f1;color:#132019;padding:14px;border-radius:7px;transform:rotate(5deg);box-shadow:0 20px 50px #0008;animation:rx 4s ease-in-out infinite}.rx-head{display:flex;justify-content:space-between;align-items:center}.rx-head b{font:700 28px "Playfair Display";color:#173f2b}.rx-head small{font-size:7px;letter-spacing:1px}.rx-line{height:1px;background:#173f2b22;margin:8px 0}.rx-line.short{width:70%}.rx-card strong{font-size:10px}.rx-card p{font-size:11px!important;line-height:1.4!important;color:#173f2b!important}.doctor h2,.creator h2{font-size:38px}.doctor p,.creator p{font-size:17px;line-height:1.8;color:#cbd8d0}.creator{background:radial-gradient(circle at 50% 25%,#183f2c,#06110d 70%)}.editor-window{width:min(560px,100%);margin:5px auto 25px;background:#101c17;border:1px solid #ffffff18;border-radius:17px;overflow:hidden;box-shadow:0 25px 70px #000a;transform:rotate(-1deg);animation:editfloat 5s ease-in-out infinite}.window-bar{height:36px;background:#17231e;display:flex;align-items:center;gap:6px;padding:0 12px}.window-bar i{width:7px;height:7px;border-radius:50%;background:#7fa38b33}.window-bar span{margin-left:8px;font-size:9px;letter-spacing:1px;opacity:.45}.preview{height:205px;position:relative;background:linear-gradient(135deg,#10251a,#07110d);display:grid;place-items:center;overflow:hidden}.preview:before{content:"CREATIVE MODE";position:absolute;left:15px;top:14px;font-size:9px;letter-spacing:2px;color:#a5edbd88}.play{width:52px;height:52px;border:1px solid #a5edbd55;border-radius:50%;display:grid;place-items:center;color:#a5edbd;animation:pulse 1.8s infinite}.scan{position:absolute;inset:0;background:linear-gradient(transparent 48%,#8fe3ae20 50%,transparent 52%);background-size:100% 40px;animation:scan 3s linear infinite}.timeline{height:72px;padding:12px 15px;position:relative;background:#0a1510}.track{height:10px;margin:5px 0;border-radius:3px;background:linear-gradient(90deg,#2b6043,#86dca0,#315f48,#1d3d2c);opacity:.65}.t2{width:75%;margin-left:18%}.t3{width:58%;margin-left:5%}.playhead{position:absolute;top:7px;bottom:7px;left:42%;width:2px;background:#b9f5ca;box-shadow:0 0 12px #b9f5ca;animation:playhead 3s ease-in-out infinite alternate}.tool-row{height:35px;display:flex;justify-content:space-around;align-items:center;font-size:12px;color:#a5edbd77}.creator h2{font-size:36px}.prayers{background:radial-gradient(circle at 50% 28%,#17442d,#06110d 70%)}.prayer-quote{font:25px/1.5 "Playfair Display";margin:20px 0}.prayer-quote div{color:#e7f0e9}.prayer-quote strong{display:block;color:var(--green);font-weight:600;margin-top:8px}.prayer-wrap b{color:var(--green2)}.final{overflow:hidden;background:radial-gradient(circle at 50% 38%,#205a39,#0b1d14 43%,#06110d 80%)}.final-glow{position:absolute;width:280px;height:280px;border-radius:50%;background:#8fe3ae22;filter:blur(30px);animation:pulseGlow 3s infinite}.final h1{margin:4px 0 10px}.name{font-size:31px;font-weight:700;color:var(--green)}.emoji{font-size:24px;letter-spacing:4px}.final-note{max-width:450px;line-height:1.8;color:#d4dfd7}.song{text-decoration:none;background:linear-gradient(135deg,#b7f5ca,#82dca1);color:#06110d;margin-top:16px}.bottom{margin-top:32px}.floating-symbols:before,.floating-symbols:after{content:"✦   ·   ✧   ·   ✦";position:fixed;z-index:1;color:#9feebd2d;font-size:13px;letter-spacing:14px;bottom:-20px;animation:drift 13s linear infinite;pointer-events:none}.floating-symbols:before{left:3%}.floating-symbols:after{right:0;animation-delay:-6s}
+@keyframes enter{from{opacity:0;transform:translateY(22px) scale(.985)}to{opacity:1;transform:none}}@keyframes pulse{50%{transform:scale(1.15)}}@keyframes orb{to{transform:translate(80px,30px) scale(1.15)}}@keyframes float{50%{transform:translateY(-6px)}}@keyframes ring{50%{transform:translate(-50%,-50%) scale(1.08);opacity:.45}}@keyframes spin{to{transform:rotate(360deg)}}@keyframes ecg{to{left:110%}}@keyframes rx{50%{transform:rotate(5deg) translateY(-8px)}}@keyframes editfloat{50%{transform:rotate(1deg) translateY(-5px)}}@keyframes scan{to{background-position:0 40px}}@keyframes playhead{to{left:72%}}@keyframes pulseGlow{50%{transform:scale(1.2);opacity:.65}}@keyframes drift{to{transform:translateY(-120vh) rotate(25deg)}}
+
+@media(max-width:600px){
+ .screen{padding:27px 14px 35px}
+ .glass,.prayer-wrap,.letter{padding:29px 18px;border-radius:24px}
+ .hero h1,.final h1{font-size:clamp(57px,17vw,79px)}
+ h2,.glass h2{font-size:38px}
+ .photo-stack{grid-template-columns:1fr;gap:17px}
+ .photo-stack figure,.photo-stack figure.wide{grid-column:1/-1}
+ .photo-stack img,.photo-stack .wide img{aspect-ratio:4/3}
+ .photo-stack figcaption{font-size:11px;padding:11px}
+ .letter p{font-size:17px;line-height:1.9}
+ .doctor-stage{height:290px}
+ .rx-card{width:160px;right:-2px;top:13%}
+ .ecg{left:4%;right:4%}
+ .doctor h2,.creator h2{font-size:34px}
+ .editor-window{margin-top:8px}
+ .preview{height:185px}
+ .prayer-quote{font-size:24px}
+ .primary,.ghost,.song{font-size:16px;padding:16px 22px}
+}
+@media(min-width:700px){.screen{padding:55px}.glass,.prayer-wrap,.letter{padding:44px}}
+
+.screen:not(.active){display:none!important}.screen:not(.letter-screen){align-items:safe center}.duo-wrap{width:210px;max-width:210px;height:137px;margin:14px auto 0;overflow:hidden;position:relative;z-index:0;pointer-events:none}.duo{display:block;width:210px!important;height:137px!important;overflow:hidden}.primary,.ghost,.song{position:relative;z-index:10}.duo .gift{animation:giftb 2s ease-in-out infinite}.armB{transform-origin:66px 70px;animation:armb 2s ease-in-out infinite}.armG{transform-origin:134px 72px;animation:armg 2s ease-in-out infinite}.ped{animation:pedg 3s ease-in-out infinite}.hrt{opacity:0;animation:hrt 2.6s ease-out infinite}.hrt.d{animation-delay:1.3s}.sp{animation:tw 1.6s ease-in-out infinite}.walk .boyG{animation:walk 2.4s ease-out both}.hug .boyG{animation:hugb 2.5s ease-in-out infinite alternate}.hug .girlG{animation:hugg 2.5s ease-in-out infinite alternate}@keyframes giftb{50%{transform:translateY(-5px)}}@keyframes armb{50%{transform:rotate(-12deg)}}@keyframes armg{50%{transform:rotate(10deg)}}@keyframes pedg{50%{opacity:.5}}@keyframes hrt{0%{transform:translateY(0);opacity:0}20%{opacity:1}100%{transform:translateY(-36px);opacity:0}}@keyframes tw{50%{opacity:.25}}@keyframes walk{from{transform:translateX(-45px);opacity:0}to{transform:none;opacity:1}}@keyframes hugb{to{transform:translateX(16px)}}@keyframes hugg{to{transform:translateX(-16px)}}.nophoto{display:flex;flex-direction:column}.nophoto::after{content:'💚';order:-1;display:grid;place-items:center;aspect-ratio:4/3;font-size:40px;background:linear-gradient(135deg,#10251a,#07110d)}
+</style>
+</head>
+<body>
+<div id="loader"><div class="loader-icon">💚</div><p>loading a little surprise...</p></div>
+<div class="grain"></div>
+<div class="floating-symbols"></div>
+
+<main>
+<section class="screen hero active" id="home">
+  <div class="orb orb-a"></div><div class="orb orb-b"></div>
+  <div class="hero-inner">
+    <p class="eyebrow">A LITTLE SURPRISE • 12:00 AM</p>
+    <div class="hero-heart">💚</div>
+    <h1>Hey<br><em>Bujjikutty...</em></h1>
+    <p class="hero-copy">Before you read anything,<br>just smile once. 🥺</p>
+    <button class="primary" data-next="intro">Open your surprise <b>✦</b></button>
+  </div>
+</section>
+
+<section class="screen intro" id="intro">
+  <div class="glass">
+    <p class="eyebrow">YOUR DAY • OUR 3RD BIRTHDAY</p>
+    <div class="big03">03</div>
+    <h2>Happy Birthday<br><span>Bujjikutty</span> 💚</h2>
+    <p class="lead">இது உன்னோட 3rd birthday ✨💚 with me...</p>
+    <div class="divider">✦</div>
+    <p>நேர்ல வந்து surprise பண்ண முடியல...<br>அதனால கொஞ்சம் digital-ஆ வந்துட்டேன். 🫂</p>
+    <button class="primary" data-next="memories">Our memories <b>→</b></button>
+  </div>
+</section>
+
+<section class="screen memories" id="memories">
+  <div class="section-heading">
+    <p class="eyebrow">OUR LITTLE MEMORIES</p>
+    <h2>Some places are<br><em>just us.</em> 💚</h2>
+  </div>
+  <div class="photo-stack">
+    <figure><span>01</span><img src="photo1.jpg" onerror="this.style.display=\'none\';this.parentNode.classList.add(\'nophoto\')" alt="Our memory 1"><figcaption>one of my favourites</figcaption></figure>
+    <figure><span>02</span><img src="photo2.jpg" onerror="this.style.display=\'none\';this.parentNode.classList.add(\'nophoto\')" alt="Our memory 2"><figcaption>you & me</figcaption></figure>
+    <figure class="wide"><span>03</span><img src="photo3.jpg" onerror="this.style.display=\'none\';this.parentNode.classList.add(\'nophoto\')" alt="Our memory 3"><figcaption>a little memory</figcaption></figure>
+    <figure><span>04</span><img src="photo4.jpg" onerror="this.style.display=\'none\';this.parentNode.classList.add(\'nophoto\')" alt="Our memory 4"><figcaption>still makes me smile</figcaption></figure>
+    <figure><span>05</span><img src="photo5.jpg" onerror="this.style.display=\'none\';this.parentNode.classList.add(\'nophoto\')" alt="Our memory 5"><figcaption>always worth remembering</figcaption></figure>
+  </div>
+  <button class="ghost" data-next="letter">Read my letter ↓</button>
+</section>
+
+<section class="screen letter-screen" id="letter">
+  <div class="letter">
+    <p class="eyebrow">A LETTER FOR YOU</p>
+    <h2>Hi daa, 💚</h2>
+    <p>இது உன்னோட 3rd birthday ✨💚 with me... எப்போவும் உன் birthday kku முன்னாடியே எல்லா கிபிட்டும் பிளான் பண்ணி வெச்சிடுவன்...</p>
+    <p>One month முன்னாடி இருந்தே அதுக்கான process poitrukkum... Means எப்படி பண்ணலாம்.. என்ன பண்ணலாம் எப்படி அவளை surprise பண்ணலாம்.. அப்படின்னு process of thinking போய்கிட்டே இருக்கும்...</p>
+    <p>😄 அத கடைசி நேரத்துல அவசர அவசரமா பண்ணிக்கிட்டு மூட்ட முடிச்சுலாம் கட்டி எடுத்துக்கிட்டு கெளம்புறதுக்குள்ள 😂... அந்த gap la நீ வேற கண்டுபிடிக்க try பண்ணுவ... Cha அதுலாம் ஒரு சொகம்...</p>
+    <p>கஷ்டத்துலயும் (பஸ் kku வெயிட் பண்றது, பஸ் கிடைக்காம இருக்குறத சொன்னன்...) தப்பா எடுத்துக்கிட்டு ஆட வேண்டாம்...</p>
+    <p class="strong">புடிச்சவங்களுக்காக புடிச்ச விஷியத்த பண்றது தப்பில்ல, கஷ்டமாவும் தெரியாது...</p>
+    <p>உன்னோட சிரிப்புக்கும் நீ எப்படி surprise ஆகி தங்கோ 💚 ன்னு சொல்வன்னு பாக்கவும் dhan🥺... சந்தோசமாகும்.</p>
+    <p>But நீ எனக்கு பண்ணத விடலாம் இது கம்மி டா...</p>
+    <div class="quote">“உன்னோட சிரிப்பை காண என்னோட ஒரு மொக்க கவிதை போதும்... ஆனால் எனக்கு அந்த சிரிப்பு இன்னும் ஸ்பெஷல் ஆக வேணும்... அதற்கு இதை தவிர எனக்கு வேறு வழி இல்லை ✨”</div>
+    <p class="wish">இனிய பிறந்தநாள் வாழ்த்துக்கள் டா அம்மு 💚✨🫂🥰♾️</p>
+    <button class="primary" data-next="doctor">One more little thing... 🥺</button>
+  </div>
+</section>
+
+<section class="screen doctor" id="doctor">
+  <div class="scene">
+    <p class="eyebrow">FOR MY DOCTOR 💚</p>
+    <div class="doctor-stage">
+      <div class="pulse-ring"></div>
+      <div class="stethoscope">♧</div>
+      <div class="cross">✚</div>
+      <div class="ecg"><span></span></div>
+      <div class="rx-card">
+        <div class="rx-head"><b>Rx</b><small>FOR BUJJIKUTTY</small></div>
+        <div class="rx-line"></div><div class="rx-line short"></div>
+        <strong>Prescription:</strong>
+        <p>1 dose of happiness<br>∞ doses of love</p>
+      </div>
+    </div>
+    <h2>Doctor by profession.<br><em>My favourite person by heart.</em> 💚</h2>
+    <p>உன்னை பார்த்தாலே என் mood சரியாகிடும்...<br>அதுக்கு எந்த prescription-மும் தேவையில்லை. 🥺</p>
+    <button class="primary" data-next="creator">Now... your other side ✦</button>
+  </div>
+</section>
+
+<section class="screen creator" id="creator">
+  <div class="creator-scene">
+    <p class="eyebrow">FOR MY CONTENT CREATOR + EDITOR 🎬</p>
+    <div class="editor-window">
+      <div class="window-bar"><i></i><i></i><i></i><span>BUJJIKUTTY_EDIT.prj</span></div>
+      <div class="preview">
+        <div class="play">▶</div>
+        <div class="scan"></div>
+      </div>
+      <div class="timeline">
+        <div class="track t1"></div><div class="track t2"></div><div class="track t3"></div>
+        <b class="playhead"></b>
+      </div>
+      <div class="tool-row"><span>✂</span><span>◉</span><span>▣</span><span>↗</span><span>♪</span></div>
+    </div>
+    <h2>She creates.<br>She edits.<br><em>She makes moments memorable.</em> ✨</h2>
+    <p>உன் creative mind-ம், உன் dedication-ம்,<br>எனக்கு ரொம்ப பிடிக்கும். 💚</p>
+    <button class="primary" data-next="prayers">And one thing I always pray for... <b>→</b></button>
+  </div>
+</section>
+
+<section class="screen prayers" id="prayers">
+  <div class="prayer-wrap">
+    <p class="eyebrow">MY WISH FOR YOU</p>
+    <div class="prayer-quote">
+      <div>“என்னோட prayers la நீ<br>இல்லாம இருந்ததில்ல”</div>
+      <strong>“நினைவில் மட்டும் எப்படி தவறுவாய்”</strong>
+    </div>
+    <div class="divider">✦</div>
+    <p>“உன்னோட ஆசைகள், கனவு, லட்சியம் எல்லாமே நிறைவேறட்டும்”</p>
+    <p>இது என்னோட ஆசைமட்டுமல்ல...<br><b>என்னோட தினசரி வேண்டுதல்.</b> 💚</p>
+    <p>“முருகனிடம் கேட்டுப்பார்... உனக்காக எவளவு சண்டை, கோபம், கெஞ்சல் எடுத்துருப்பேன் என்று” 😊</p>
+    <button class="primary" data-next="final">Finally... <b>✦</b></button>
+  </div>
+</section>
+
+<section class="screen final" id="final">
+  <div class="final-glow"></div>
+  <div class="confetti"></div>
+  <p class="eyebrow">FOR MY BUJJIKUTTY</p>
+  <div class="final-heart">💚</div>
+  <h1>Very very<br><em>Happy Birthday</em></h1>
+  <p class="name">Bujjikutty</p>
+  <p class="emoji">🥺 🥰 ✨ 🫂 ♾️</p>
+  <p class="final-note">Once again A very very very Happy birthday thango💚🥺🥰✨🥰🥰🥰</p>
+  <a class="song" href="https://youtu.be/RLzC55ai0eo?si=h08Wx3D7ZMH7aTmF" target="_blank" rel="noopener">🎵 Play our song</a>
+  <p class="tiny bottom">Made with too many thoughts,<br>a little madness, and a lot of love. 💚</p>
+</section>
+</main>
+<script>window.addEventListener("load",()=>setTimeout(()=>document.getElementById("loader").classList.add("hide"),650));
+const screens=[...document.querySelectorAll(".screen")];
+function show(id){
+ screens.forEach(s=>s.classList.remove("active"));
+ const t=document.getElementById(id); t.classList.add("active"); t.scrollTop=0;
+ window.scrollTo({top:0,behavior:"instant"});
+}
+const POSE={home:'walk',intro:'give',memories:'camera',letter:'letter',doctor:'cross',creator:'laptop',prayers:'sparkle',final:'hug'};
+const X={camera:`<g class='sp'><rect x='48' y='78' width='14' height='9' rx='2' fill='#222' stroke='#b9f5ca'/><circle cx='55' cy='82' r='3' fill='#8fe3ae'/></g>`,letter:`<g class='gift'><rect x='92' y='50' width='16' height='11' rx='2' fill='#f3f7f4'/><path d='M92 51l8 6 8-6' stroke='#8fe3ae' fill='none'/></g>`,cross:`<text class='sp' x='100' y='52' font-size='16' fill='#b9f5ca' text-anchor='middle'>✚</text>`,laptop:`<g><rect x='10' y='88' width='26' height='15' rx='2' fill='#17231e' stroke='#8fe3ae'/><path d='M20 92l8 3.5-8 3.5z' fill='#8fe3ae' class='sp'/></g>`,sparkle:`<text class='sp' x='30' y='30' fill='#b9f5ca' font-size='12'>✦</text><text class='sp' x='168' y='24' fill='#b9f5ca' font-size='12'>✧</text><text class='sp' x='100' y='18' fill='#b9f5ca' font-size='10'>✦</text>`,walk:'',give:'',hug:''};
+function duo(p){return `<svg class='duo ${p}' viewBox='0 0 200 130'><ellipse class='ped' cx='100' cy='116' rx='82' ry='9' fill='#8fe3ae22' stroke='#8fe3ae66'/><g class='boyG'><rect x='46' y='96' width='7' height='15' rx='3' fill='#1a2a22'/><rect x='57' y='96' width='7' height='15' rx='3' fill='#1a2a22'/><rect x='43' y='64' width='24' height='34' rx='8' fill='#2b6043'/><circle cx='55' cy='50' r='14' fill='#f1c9a5'/><path d='M41 48a14 14 0 0 1 28 0c-6-6-22-6-28 0z' fill='#1a1a1a'/><path d='M40 50a15 15 0 0 1 30 0' stroke='#b9f5ca' stroke-width='3' fill='none'/><rect x='37' y='48' width='5' height='10' rx='2' fill='#b9f5ca'/><rect x='68' y='48' width='5' height='10' rx='2' fill='#b9f5ca'/><circle cx='50' cy='52' r='1.6' fill='#222'/><circle cx='60' cy='52' r='1.6' fill='#222'/><path d='M51 57q4 3 8 0' stroke='#222' fill='none' stroke-linecap='round'/><g class='armB'><line x1='66' y1='70' x2='88' y2='80' stroke='#f1c9a5' stroke-width='6' stroke-linecap='round'/></g></g><g class='girlG'><rect x='136' y='96' width='7' height='15' rx='3' fill='#1a2a22'/><rect x='147' y='96' width='7' height='15' rx='3' fill='#1a2a22'/><rect x='130' y='36' width='30' height='34' rx='14' fill='#2a1a14'/><circle cx='145' cy='33' r='6' fill='#2a1a14'/><rect x='133' y='64' width='24' height='34' rx='8' fill='#f0f6f1'/><path d='M139 66q6 14 12 0' stroke='#8fe3ae' stroke-width='2' fill='none'/><path d='M138 78h4M140 76v4' stroke='#2b6043' stroke-width='2'/><circle cx='145' cy='50' r='14' fill='#f1c9a5'/><path d='M131 48a14 14 0 0 1 28 0c-4-4-24-4-28 0z' fill='#2a1a14'/><circle cx='140' cy='52' r='1.6' fill='#222'/><circle cx='150' cy='52' r='1.6' fill='#222'/><circle cx='138' cy='56' r='2.5' fill='#ff9fb0' opacity='.5'/><circle cx='152' cy='56' r='2.5' fill='#ff9fb0' opacity='.5'/><path d='M141 57q4 3 8 0' stroke='#222' fill='none' stroke-linecap='round'/><g class='armG'><line x1='134' y1='72' x2='112' y2='82' stroke='#f1c9a5' stroke-width='6' stroke-linecap='round'/></g></g><g class='gift'><rect x='88' y='72' width='24' height='20' rx='3' fill='#8fe3ae'/><rect x='98' y='72' width='4' height='20' fill='#06110d' opacity='.35'/><path d='M100 72c-9-11-17-2-8 0M100 72c9-11 17-2 8 0' stroke='#b9f5ca' fill='none' stroke-width='3'/></g>${X[p]||''}<text class='hrt' x='96' y='64' font-size='13'>💚</text><text class='hrt d' x='106' y='64' font-size='13'>💚</text></svg>`}
+screens.forEach(s=>{const e=s.querySelector('.eyebrow');if(!e)return;const w=document.createElement('div');w.className='duo-wrap';w.innerHTML=duo(POSE[s.id]);e.after(w)});
+document.querySelectorAll("[data-next]").forEach(b=>b.addEventListener("click",()=>show(b.dataset.next)));
+</script>
+</body>
+</html>
